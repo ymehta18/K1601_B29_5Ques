@@ -314,8 +314,8 @@ void access(){
 	}
 	printf("\nALL THE QUERIES ARE HANDLED\n");
 	printf("\nTime left for access id == %02d hr: %02d min: %02d sec\n",(12-(hour+1)),(60-(min+minute)),((sec+second)));
-	printf("\nDO YOU STILL WANT TO STAY ON THE STUDENT QUERY SYSTEM ?\n");
-	printf("\nPress 0 to Log Out and 1 to continue\n");
+	printf("\TO LOG-OUT ENTER 0\n");
+	//printf("\nPress 0 to Log Out and 1 to continue\n");
 	int c;
 	scanf("%d",&c);
 	if(c==0){
